@@ -1,7 +1,4 @@
-![](/ga_cog.png) 
-
 # Minion Callbacks 
-
 ![](https://cdn-images-1.medium.com/max/1200/1*tv6jdV17yusTsuzgxPz0Aw.jpeg)
 
 ##### Learning Objectives
@@ -26,7 +23,7 @@
 With the given array of minions...
 
 ```js
-const minions = ['bob', 'kevin', 'stuart', 'dave', 'jerry', 'kevin', 'mark', 'tim', 'phil', 'carl']
+const minions = ['bob', 'stuart', 'dave', 'jerry', 'kevin', 'mark', 'tim', 'phil', 'carl']
 ```
 
 Gru, the mob boss, wants to test out some array methods with callbacks. Let's go ahead and help him out. 
