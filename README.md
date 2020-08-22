@@ -16,8 +16,8 @@
 
 ## Getting Started 
 
-1. If you haven't already, research all the array methods listed at the bottom of the lecture notes before starting this lab
-1. In today's `student_labs` folder, create an `array_method_callbacks.js` file and do your work in that file
+1. If you haven't already, research all the array methods listed at the bottom of the lecture notes before starting this lab.
+1. Clone this repository down, and create an `array_method_callbacks.js` file and do your work in that file
 
 ---
 
