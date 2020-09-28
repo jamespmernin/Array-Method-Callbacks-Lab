@@ -13,11 +13,7 @@ const minions = [
 minions.forEach(minion => console.log(`${minion} - here`));
 
 let capitalizedMinions = minions.map(minion => {
-  if (minion != 'kevin') {
-    return minion[0].toUpperCase() + minion.slice(1);
-  } else {
-    return minion;
-  }
+  return minion != 'kevin' ? minion[0].toUpperCase() + minion.slice(1) : minion;
 });
 console.log(capitalizedMinions);
 
