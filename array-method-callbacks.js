@@ -55,8 +55,8 @@ console.log(capitalizedMinions.some(isCapitalized));
 console.log(capitalizedMinions.some(isLowercase));
 
 let sortedMinions = capitalizedMinions.sort(function (a, b) {
-  // ASC  -> a.length - b.length
-  // DESC -> b.length - a.length
+  // To sort ascending  -> a.length - b.length
+  // To sort descending -> b.length - a.length
   return a.length - b.length;
 });
 console.log(sortedMinions);
