@@ -14,7 +14,7 @@ minions.forEach(minion => console.log(`${minion} - here`));
 
 let capitalizedMinions = minions.map(minion => {
   if (minion != 'kevin') {
-    return minion.charAt(0).toUpperCase() + minion.slice(1);
+    return minion[0].toUpperCase() + minion.slice(1);
   } else {
     return minion;
   }
@@ -22,11 +22,11 @@ let capitalizedMinions = minions.map(minion => {
 console.log(capitalizedMinions);
 
 function isCapitalized(word) {
-  return word.charAt(0).toUpperCase() === word.charAt(0);
+  return word[0].toUpperCase() === word[0];
 }
 
 function isLowercase(word) {
-  return word.charAt(0).toLowerCase() === word.charAt(0);
+  return word[0].toLowerCase() === word[0];
 }
 
 console.log(capitalizedMinions.every(isCapitalized));
@@ -38,7 +38,7 @@ console.log(actuallyCapitalizedMinions.every(isCapitalized));
 const isKevin = (minion) => minion === 'kevin';
 let kevinIndex = capitalizedMinions.findIndex(isKevin)
 console.log(kevinIndex);
-capitalizedMinions[kevinIndex] = (capitalizedMinions[kevinIndex].charAt(0).toUpperCase() + capitalizedMinions[kevinIndex].slice(1));
+capitalizedMinions[kevinIndex] = (capitalizedMinions[kevinIndex][0].toUpperCase() + capitalizedMinions[kevinIndex].slice(1));
 console.log(capitalizedMinions.every(isCapitalized));
 
 let minionNameLengths = capitalizedMinions.map(minion => minion.length);
